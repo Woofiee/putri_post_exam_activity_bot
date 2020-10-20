@@ -13,27 +13,27 @@ while True:
     
     if each_word == "bored":
       feelings_list.append("bored")
-      encouragement_list.append("you can go out with your friends!")
+      encouragement_list.append("you can go out with your friends, or do something you find joy in! spend your time wisely!")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("good job! you will do well and life is good ")
+      encouragement_list.append("good job! continue staying cheerful and bubbly!")
       counter += 1
     if each_word == "worried":
       feelings_list.append("worried")
-      encouragement_list.append("don't worry! take your mind off, and you can do well!")
+      encouragement_list.append("don't worry! take your mind off whatever worries you have, stay positive and you can do well! Don't worry about what could go wrong but focus on what could go right!")
       counter += 1
     if each_word == "upset":
       feelings_list.append("upset")
-      encouragement_list.append("your grades are not a measure of your ability!")
+      encouragement_list.append("your grades are not a measure of your ability. don't let yesterday's failures bring you down. cheer up!")
       counter += 1
 if each_word == "angry":
       feelings_list.append("angry")
-      encouragement_list.append("calm down")
+      encouragement_list.append("calm down. take deep breaths and practice mindful thinking. reflect on why you feel angry and try to appease yourself by takign your mind off it.")
       counter += 1
       if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("it's ok to feel sad sometimes! just go out and do what you want to! everything will fall into place soon! cheer up!")
+      encouragement_list.append("it's ok to feel sad sometimes! just go out, take a walk in the park, and stay positive! everything will fall into place soon! cheer up!")
       counter += 1
       
   if counter == 0:
